@@ -418,3 +418,11 @@ iframe {
 .bigger-text {
   font-size: 140%;
 }
+
+
+// Components
+
+@import "./components/Navigation.scss";
+
+@import "./components/Header.scss";
+@import "./components/Footer.scss";
