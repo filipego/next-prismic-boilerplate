@@ -1,0 +1,125 @@
+%heading {
+    font-family: $font-primary;
+    line-height: 1.3;
+}
+
+h1 {
+    font-family: $font-primary;
+    font-size: 6.5rem;
+    line-height: .95;
+    letter-spacing: -.02rem;
+    color: $color-dark;
+    margin-bottom: 6.5rem;
+
+
+    @media only screen and (min-width : 1500px) {
+        font-size: 7.7rem;
+        margin-bottom: 8.5rem;
+    }
+
+    .special {
+        color: $color-primary;
+        font-family: $font-secondary;
+        font-size: 8.5rem;
+        text-transform: uppercase;
+
+        @media only screen and (min-width : 1500px) {
+            font-size: 9.5rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: 5rem;
+        }
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+}
+
+h2,
+h4,
+.heading-2,
+.heading-4 {
+    @extend %heading;
+    color: $color-primary;
+    letter-spacing: .2rem;
+    font-weight: medium;
+    line-height: 1.3;
+}
+
+h2,
+.heading-2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    &--404 {
+        font-family: $font-secondary;
+        font-size: 17rem;
+        line-height: .9;
+        letter-spacing: .05rem;
+        text-transform: uppercase;
+        color: $color-dark;
+    }
+
+}
+
+h3,
+.heading-3 {
+    font-family: $font-secondary;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: $color-dark;
+    font-weight: bold;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 1.5rem;
+    }
+
+    &--light {
+        margin-top: -5%;
+        color: $color-light;
+    }
+}
+
+h4,
+.heading-4 {
+    font-size: 2rem;
+}
+
+
+p {
+    color: $color-light-gray;
+    font-family: $font-primary;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &.p-white {
+        color: $color-light;
+    }
+
+    &.small {
+        font-size: 1.4rem;
+        line-height: 1.5;
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.3rem;
+        }
+    }
+}

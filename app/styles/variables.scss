@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+
+
+// COLOR VARIABLES
+$color-primary: #29285D;
+$color-dark: #141414;
+$color-lighter-dark: #1e1e1e;
+$color-light-gray: #4e575a;
+$color-light: white;
+$color-lighter: #F3F4FD;
+$color-links: #01BFA7;
+
+
+
+// Typography
+
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Roboto', sans-serif;
+$logo: 'Roboto', sans-serif;
+
+
+// RESPONSIVE BREAKPOINTS
+
+$bp-largest: 120rem; // 1200px
+$bp-large: 100rem; // 1000px
+$bp-medium: 80rem; // 800px;
+$bp-small: 60rem; // 600px;
