@@ -3,7 +3,6 @@ import type { Metadata, ResolvingMetadata } from 'next'
 import { createClient } from '@/prismicio'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Container from './components/Container'
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -29,9 +28,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <Container>
-          {children}
-        </Container>
+
+        {children}
         <Footer />
       </body>
     </html>

@@ -3,13 +3,13 @@
     line-height: 1.3;
 }
 
-h1 {
+h1,
+h2 {
     font-family: $font-primary;
-    font-size: 6.5rem;
-    line-height: .95;
-    letter-spacing: -.02rem;
+    font-size: 7.2rem;
+    line-height: 8rem;
     color: $color-dark;
-    margin-bottom: 6.5rem;
+    font-weight: 700;
 
 
     @media only screen and (min-width : 1500px) {
@@ -38,7 +38,7 @@ h1 {
     }
 }
 
-h2,
+
 h4,
 .heading-2,
 .heading-4 {
@@ -49,26 +49,7 @@ h4,
     line-height: 1.3;
 }
 
-h2,
-.heading-2 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
 
-    @media only screen and (max-width: $bp-small) {
-        font-size: 2rem;
-        margin-bottom: 5rem;
-    }
-
-    &--404 {
-        font-family: $font-secondary;
-        font-size: 17rem;
-        line-height: .9;
-        letter-spacing: .05rem;
-        text-transform: uppercase;
-        color: $color-dark;
-    }
-
-}
 
 h3,
 .heading-3 {
@@ -100,9 +81,9 @@ h4,
 p {
     color: $color-light-gray;
     font-family: $font-primary;
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     line-height: 1.5;
-    letter-spacing: 0.02rem;
+    font-weight: 400;
     margin-bottom: 2.5rem;
 
     @media only screen and (max-width: $bp-small) {

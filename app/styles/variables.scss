@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 
 // COLOR VARIABLES
@@ -9,21 +7,21 @@ $color-dark: #141414;
 $color-lighter-dark: #1e1e1e;
 $color-light-gray: #4e575a;
 $color-light: white;
-$color-lighter: #F3F4FD;
+$color-lighter: #FAFBFB;
 $color-links: #01BFA7;
 
 
 
 // Typography
 
-$font-primary: 'Roboto', sans-serif;
-$font-secondary: 'Roboto', sans-serif;
-$logo: 'Roboto', sans-serif;
+$font-primary: 'Nunito', sans-serif;
+$font-secondary: 'Nunito', sans-serif;
+$logo: 'Nunito', sans-serif;
 
 
 // RESPONSIVE BREAKPOINTS
 
-$bp-largest: 120rem; // 1200px
-$bp-large: 100rem; // 1000px
-$bp-medium: 80rem; // 800px;
-$bp-small: 60rem; // 600px;
+$bp-largest: 128rem; // 1200px
+$bp-large: 102.4rem; // 1000px
+$bp-medium: 76.8rem; // 800px;
+$bp-small: 64rem; // 600px;
