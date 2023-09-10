@@ -1,23 +1,25 @@
 {
-  "id": "homepage",
-  "label": "Homepage",
+  "id": "page",
+  "label": "Page",
   "format": "page",
-  "repeatable": false,
+  "repeatable": true,
   "status": true,
   "json": {
     "Main": {
-      "title": {
-        "type": "Text",
+      "uid": {
         "config": {
-          "label": "Title",
-          "placeholder": ""
-        }
+          "label": "UID"
+        },
+        "type": "UID"
       },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "cards": {
+              "type": "SharedSlice"
+            },
             "hero": {
               "type": "SharedSlice"
             }
